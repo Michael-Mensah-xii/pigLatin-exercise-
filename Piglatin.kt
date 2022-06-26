@@ -36,7 +36,7 @@ fun main() {
     val string6 = pigLatinWord("stress") //consonant cluster word
     val string7 = pigLatinWord("eunoia") //contains all vowels
     val string8 = pigLatinWord("Psst") //contains no vowel
-    if (string1 === "-1") println("Pig Latin is not possible, the string must have at least a vowel.") else println(
+    if (string1 === "-1") println("Pig Latin is not possible, the string must have at least one vowel.") else println(
         string1
     )
     println(string2)
