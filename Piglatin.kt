@@ -1,6 +1,6 @@
-import PigLatinExample.pigLatinWord
+import PigLatin.pigLatinWord
 
-object PigLatinExample {
+object PigLatin{
     fun isVowel(ch: Char): Boolean {
         return ch == 'A' || ch == 'a' || ch == 'E' || ch == 'e' || ch == 'I' || ch == 'i' || ch == 'O' || ch == 'o' || ch == 'U' || ch == 'u'
     }
